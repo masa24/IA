@@ -94,8 +94,8 @@ In this system, there will be two stakeholders, the producer and the customer. B
 ### login function
 ![login](login.png)
 
-### register function
-![login](register.png)
+### add data function
+![login](add_data.png)
 
 ### search function
 ![login](search.png)
@@ -106,8 +106,8 @@ In this system, there will be two stakeholders, the producer and the customer. B
 |Test the login with wrong password | Unit testing  | Password: melon (wrong password) | The user inputs the wrong password when trying to login | Error message shows the password is wrong | 2  |
 |Test the data input for the producer| Unit testing  | input: 16.6, John, muscat, Karuizawa, 6/6, 2,6,7/8, 598.3, 7/8 | Try to input general grape info | info will be added to database | 2  |
 
-|Test the login, registeration, home screen, new posts and profile page  | Integration testing   | username: banana Password: Melon123  Check password: Melon123  title: MHXX publisher: Capcom content: Very good | The user is able to signup and then login, letting them go to the home screen where they are able to view everyone's posts and then they are able upload new posts | They are able to signup and login and create a new post that is displayed in the home screen and profile page  | 1, 2, 3, 6 |
-| Test the search function  | Unit testing  | Word searched in search bar MHXX   | The user inputs a search word in the search bar which searches the database   | The posts with including the search term is outputted in the home page |  5 |
+|Test the login, data input, and home screen  | Integration testing   | Password: grape  data_input: 18.1,エバーグリーン北杜,シャインマスカット,山梨県北杜市,8/8,2,5,9/24,600.0,9/26 \n 0,tanaka,明日,美味しい,葡萄、メロン,/static/image/img.png| The producer side is able to log in, letting them go to the home screen where they are able to manage data inputs. The consumer side can see data on grapes in the info and history screen | The producer is able to log in and modify data. The consumer can access the home screen and see the grape data.  | 1, 2, 3, 6 |
+| Test the search function  | Unit testing  | id searched in search bar 0   | The user inputs a valid id in the search bar which searches the database   | It shows the information of the grape with the same id |  5 |
 
 
 
