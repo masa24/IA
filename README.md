@@ -49,13 +49,13 @@ In this system, there will be two stakeholders, the producer and the customer. B
 # Criteria B: Design
 
 ## System Diagram
-![system](IA1system.png)
+![system](system.png)
 ## Data Storage
 ![er](er.png)
 ## UML Diagram
 ![uml](uml.png)
 ## Wireframe
-![wireframe](wireframe.png)
+![wireframe](wireframe.jpg)
 
 ## Record of Tasks
 | Task No  | Planned Action  | Planned Outcome | Time estimate  | Target completion date  | Criterion |
