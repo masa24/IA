@@ -37,10 +37,10 @@ In this system, there will be two stakeholders, the producer and the customer. B
 ## Success Criteria
 | No. | Success criteria	         | Issue tackled       |
 |----------------------------|---------------------------------|----------------|
-| 1 | The system will store all information(sweetness, produced area, etc) for each grapes.  | "he does not have a system that could store and manage information about each grape and producer."  | 
-| 2 | The system will store all information(maker,product,their self introduction,etc) about each producer. | "he does not have a system that could store and manage information about each grape and producer." | 
+| 1 | The system will have a secured data managing screen for the producer.  | "he does not have a system that could store and manage information about each grape and producer."  | 
+| 2 | The client will be able to manage its grape info and producer info. | "he does not have a system that could store and manage information about each grape and producer." | 
 | 3 | The program will add the collected data to the database.  | " the data needs to be transferred into a database but the client has no knowledge to do that"  | 
-| 4 | The customer can access the information about the producer.  |"he also wants to share information about each producer in the group." | 
+| 4 | The customer can access the information about the grapes and producer.  |"he also wants to share information about each producer in the group." | 
 | 5 | The customer can access the information about the grape through a barcode.  | "the current situation is that there are no easy methods for the customer to access this information." | 
 | 6 | The customer can access the information about the grape by searching with the grape ID. | "the current situation is that there are no easy methods for the customer to access this information.” | 
 
