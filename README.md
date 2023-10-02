@@ -80,9 +80,10 @@ In this system, there will be two stakeholders, the producer and the customer. B
 | 18 | Design: Complete the flow diagram |  Create three flow charts  | 60 mins  | 2023.07.27    | B |
 | 19 | Design: Complete the ER diagram |  Show relation between databases  | 30 mins  | 2023.07.28    | B |
 | 20 | Design: Complete the wireframe |  Show relations between each screens and how it works  | 30 mins  | 2023.07.28    | B |
-| 21 | Implementation: Evaluation by client                      | To have the website evaluated by the client and to have the evidence documented                                  | 1hr           | 2023.07.29        | E         |
-| 22 | Beta Testing: Evaluation by peer                          | To have the website evaluated by a peer and to have the evidence documented                                      | 1hr           | 2023.07.29        | E         |
-| 23 | Implementation: Collect Recommendations from client/customer | To have taken in recommendations from both stakeholders on how the system can be improved | 15min         | 2023.07.29          | E         |
+| 21 | Alpha Testing: Test overall functionality of the system      | To test the comprehensive functionality and to have the evidence documented              | 1hr           | 2023.07.29        | E         |
+| 22 | Implementation: Evaluation by client                      | To have the website evaluated by the client and to have the evidence documented                                  | 1hr           | 2023.07.29        | E         |
+| 23 | Beta Testing: Evaluation by peer                          | To have the website evaluated by a peer and to have the evidence documented                                      | 1hr           | 2023.07.29        | E         |
+| 24 | Implementation: Collect Recommendations from client/customer | To have taken in recommendations from both stakeholders on how the system can be improved | 15min         | 2023.07.29          | E         |
 
 
 
@@ -99,18 +100,14 @@ In this system, there will be two stakeholders, the producer and the customer. B
 ### search function
 ![login](search.png)
 ## Test Plan
-| Instruction                        | Category     | Input example / code                               | Description                                                                                                        | Expected output                                                         | Success criteria |
-|------------------------------------|--------------|----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|------------------|
-|Test the login   | Unit testing  | Email: banana password: banana  | The user is able to login to the application and the home screen is displayed when they enter | The user logs in if the username and password is correct and the home screen is displayed with a cookie being created as well(The password is for testing)   |2, 3 | 
-|Test the login with wrong password | Unit testing  | username: banana Password: melon (wrong password) | The user inputs the wrong password when trying to login | Error message shows the password is wrong | 2  | 
-|Test the login with wrong username | Unit testing  | username: melon(does not exist) Password: banana | The user inputs the wrong username | Error message shows the user does not exist | 2  | 
-|Test the registration | Unit testing | username: banana password: Melon123 check password: Melon123  | The user inputs their email and passwords and try to sign up | The user is able to sign up and their email and password (which is hashed) is saved in the database 
-|Test the registration with wrong inputs | Unit testing | username: bananapass password: abc check password: abc | The user doesnt input the password that reaches the requirement. | An error message is displayed on the user interface 	| 2  | 
-|Test the registration with unmatching confirmation | Unit testing | username: bananaconfirm password: Melon123 check password: Banana123 | The user doesnt input matching confirm passport. | An error message is displayed on the user interface 	| 2  | 
-|Test the login, registeration, home screen, new posts and profile page  | Integration testing   | uswername: banana Password: Melon123  Check password: Melon123  title: MHXX publisher: Capcom content: Very good | The user is able to signup and then login, letting them go to the home screen where they are able to view everyone's posts and then they are able upload new posts | They are able to signup and login and create a new post that is displayed in the home screen and profile page  | 1, 2, 3, 6 |
-|Test the adding function	|Unit testing 	| n/a	| This enables the user to add the games they own to their own list. | The information will be added in the database and user can check them in their profile page.	| 4  | 
-| Test the search function  | Unit testing  | Word searched in search bar MHXX   | The user inputs a search word in the search bar which searches the database   | The posts with including the search term is outputted in the home page |  5 |  
-|Test the profile page | Unit testing | n/a  | The user clicks the profile button in the sidebar 	| The user is able to see the games they own and the posts that they have posted in the past 	| 6  | 
+| Instruction    | Category     | Input example / code   | Description  | Expected output | Success criteria |
+|----------------|--------------|------------------------|--------------|-----------------|------------------|
+|Test the login   | Unit testing  | password: grape  | The user is able to log into the application and the producer side screen is displayed when they enter | The user logs in if the password is correct and the producer side screen is displayed with a cookie being created as well(The password is for testing)   |2, 3 | 
+|Test the login with wrong password | Unit testing  | Password: melon (wrong password) | The user inputs the wrong password when trying to login | Error message shows the password is wrong | 2  |
+|Test the data input for the producer| Unit testing  | input: 16.6, John, muscat, Karuizawa, 6/6, 2,6,7/8, 598.3, 7/8 | Try to input general grape info | info will be added to database | 2  |
+
+|Test the login, registeration, home screen, new posts and profile page  | Integration testing   | username: banana Password: Melon123  Check password: Melon123  title: MHXX publisher: Capcom content: Very good | The user is able to signup and then login, letting them go to the home screen where they are able to view everyone's posts and then they are able upload new posts | They are able to signup and login and create a new post that is displayed in the home screen and profile page  | 1, 2, 3, 6 |
+| Test the search function  | Unit testing  | Word searched in search bar MHXX   | The user inputs a search word in the search bar which searches the database   | The posts with including the search term is outputted in the home page |  5 |
 
 
 
@@ -141,6 +138,7 @@ In this system, there will be two stakeholders, the producer and the customer. B
 
 ## Success criteria
 ### 1 The system will store all information(sweetness, produced area, etc) for each grapes.
+The client requested a function that would 
 ### 2 The system will store all information(maker,product,their self introduction,etc) about each producer.
 ### 3 The program will add the collected data to the database.
 ### 4 The customer can access the information about the producer.
