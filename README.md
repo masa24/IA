@@ -118,7 +118,7 @@ In this system, there will be two stakeholders, the producer and the customer. B
 | PyCharm                    | Encryption                      | Flask          |
 | Relational databases       | Objects, attributes and methods | sqlite3        |
 | SQLite                     | If statements                   | passlib        |
-| Python                     |                                 |                |
+| Python                     | for loops                       |                |
 | Chat GPT                   |                                 |                | 
 ## List of techniques used
 
