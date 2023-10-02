@@ -195,6 +195,7 @@ summary of template.html
 </html>
 
 ```
+When this file is loaded into the browser the variables in the file and the base template are put together and displayed.
 This way it allows the user to go back and forth between these two tabs quickly as there is no need to change the whole page.
 Using {% block content %} in HTML templates allows you to create a reusable template structure where you can insert specific page content dynamically, making it easier to maintain and customize web pages. It promotes code modularity and reduces duplication.
 ### 5 The customer can access the information about the grape through a barcode.
@@ -220,7 +221,7 @@ def get_info(id):
 ### 6 The customer can access the information about the grape by searching with the grape ID.
 
 ### Pattern recognition
-### Abstracttion
+### Abstraction
 ### Decomposition
 I applied decomposition by tackling each success criteria individualy and putting it together afterwards. It made me easier to find the solution of error since individual functions makes it easier to identify the error happening.
 
