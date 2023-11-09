@@ -8,3 +8,14 @@
 ![uml](uml.png)
 ## Wireframe
 ![wireframe](wireframe.jpg)
+
+
+## Flow Diagrams
+### login function
+![login](login.png)
+
+### add data function
+![login](add_data.png)
+
+### search function
+![login](search.png)
