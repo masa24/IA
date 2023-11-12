@@ -12,10 +12,10 @@
 
 ## Flow Diagrams
 ### login function
-![login](login.png)
+![login](login.jpg)
 
 ### add data function
-![login](add_data.png)
+![login](add.jpg)
 
 ### search function
-![login](search.png)
+![login](search.jpg)
