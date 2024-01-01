@@ -1,7 +1,7 @@
 ## Criteria A: Planning
 
 ## Problem definition(Client identification)
-My client is a grape farmer. He is willing to have a system that will give transparency to his grape. He wants his customers to have access to more information about his grape. The information will be the general grape information(eg. sweetness, grapeion area), cultivation history, and pest control history. My client is working as a group of grape farmers. Therefore, he also wants to share information about each producer in the group. 
+My client is a grape farmer. He is willing to have a system that will give transparency to his grape. He wants his customers to have access to more information about his grape. The information will be the general grape information(eg. sweetness, grape, production area), cultivation history, and pest control history. My client is working as a group of grape farmers. Therefore, he also wants to share information about each producer in the group. He also wants a system that will help him analyze the data to give him better idea of how his business is going.
 However, there are several issues when implementing this system. First, the client is currently keeping his grape data in an Excel file. However, to use the data in the system, the data needs to be transferred into a database but the client has no knowledge to do that. Secondly, he does not have a system that could store and manage information about each grape and producer. Lastly, the current situation is that there are no easy methods for the customer to access this information.
 By having this system my client’s customers will have enough information to ensure the quality and safety of my client's grape. This is very important to add transparency to his grapes. These problems were identified through a face-to-face meeting and email(See appendix for evidence). Throughout this IA, the word "client" will refer to the client himself. The word "producer" will refer to all the farmers under the client's group including the client himself. The word "customer" will refer to the person who is buying the grapes made by the producers.
 
@@ -40,8 +40,10 @@ In this system, there will be two stakeholders, the producer and the customer. B
 | 2 | The system will have a secured login function for the info managing screen. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
 | 3 | The program will add the collected data to the database by converting a CSV file into a suitable format.  | "The data needs to be transferred into a database but the client has no knowledge to do that"  | 
 | 4 | The client's customers can view the information about the grapes and producer.  |"he also wants to share information about each producer in the group.","He wants his customers to have access to more information about his grape" | 
-| 5 | The client's customers can access the information about the grape through a barcode, allocated to each branch of grapes.  | "the current situation is that there are no easy methods for the customer to access this information." | 
-| 6 | The customer can access the information about the grape by searching with the grape ID. | "the current situation is that there are no easy methods for the customer to access this information.” | 
+| 5 | The client's customers can view the information about the grape through a barcode, allocated to each branch of grapes.  | "the current situation is that there are no easy methods for the customer to access this information." | 
+| 6 | The customer can view the information about the grape by searching with the grape ID. | "the current situation is that there are no easy methods for the customer to access this information.” | 
+| 7 | The client will be able to see his data in  | "the current situation is that there are no easy methods for the customer to access this information.” | 
+
 
 
 | No. | Success criteria	         | Issue tackled       |
