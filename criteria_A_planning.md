@@ -36,16 +36,18 @@ In this system, there will be two stakeholders, the producer and the customer. B
 ## Success Criteria
 | No. | Success criteria	         | Issue tackled       |
 |----------------------------|---------------------------------|----------------|
-| 1 | The client will be able to store their grape info and producer info in a database and manage(add, delete, edit) them. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
-| 2 | The system will have a secured login function for the info managing screen. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
-| 3 | The program will add the collected data to the database by converting a CSV file into a suitable format.  | "The data needs to be transferred into a database but the client has no knowledge to do that"  | 
-| 4 | The client's customers can view the information about the grapes and producer.  |"he also wants to share information about each producer in the group.","He wants his customers to have access to more information about his grape" | 
-| 5 | The client's customers can view the information about the grape through a barcode, allocated to each branch of grapes.  | "the current situation is that there are no easy methods for the customer to access this information." | 
-| 6 | The customer can view the information about the grape by searching with the grape ID. | "the current situation is that there are no easy methods for the customer to access this information.” | 
-| 7 | The client will be able to see his data in order. He can sort the data by the sweetness, production area, grape type, and plant date. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
-| 8 | The client will be able to see his data in filtered. He can filter the data by the sweetness, production area, grape type, and plant date. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
-| 9 | The system will be able to display a graph by the selected independent variable and dependent variable at the x-axis and y-axis respectively. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
-| 10 | The system will be able to create a trendline from the generated graph and give advice to the client.  | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
+| 1 | The client will be able to store their grape info and producer info. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
+| 2 | The client will be able to manage(add, delete, edit) datas stored in the database. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
+| 3 | The system will have a secured login function for the info managing screen. | "he does not have a system that could store and manage information about each grape and producer."(This will only give the producer the access to modify stored data.)  | 
+| 4 | The program will add the collected data to the database by converting a CSV file into a suitable format.  | "The data needs to be transferred into a database but the client has no knowledge to do that"  | 
+| 5 | The client's customers can view the information about the grapes and producer.  |"he also wants to share information about each producer in the group.","He wants his customers to have access to more information about his grape" | 
+| 6 | The client's customers can view the information about the grape through a barcode, allocated to each branch of grapes.  | "the current situation is that there are no easy methods for the customer to access this information." | 
+| 7 | The customer can view the information about the grape by searching with the grape ID. | "the current situation is that there are no easy methods for the customer to access this information.” | 
+| 8 | The client will be able to see his data in order. He can sort the data by the sweetness, production area, grape type, and plant date. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
+| 9 | The client can view filtered data based on sweetness, production area, grape type, and plant date. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
+| 10 | The client will be able to view the data graphically. | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
+| 11 | The system will be able to create a trendline from the generated graph.  | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
+| 12 | The system will advise the client based on the trendline.  | "He also wants a system that will help him analyze the data to give him a better idea of how his business is going.” |
 
 
 
